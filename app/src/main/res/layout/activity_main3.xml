@@ -86,4 +86,20 @@
         android:text="Mocha Frappucino"
         tools:layout_editor_absoluteX="222dp"
         tools:layout_editor_absoluteY="495dp" />
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:text="ORDER"
+        android:layout_width="213dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/black"
+        android:text="CANCEL"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="635dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
