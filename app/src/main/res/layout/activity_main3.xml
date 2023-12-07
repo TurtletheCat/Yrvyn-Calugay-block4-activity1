@@ -13,9 +13,9 @@
         android:layout_height="151dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/white"
         app:cardCornerRadius="10dp"
-        app:cardElevation="10dp"white
+        app:cardElevation="10dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="88dp" />
@@ -33,4 +33,57 @@
         tools:layout_editor_absoluteX="226dp"
         tools:layout_editor_absoluteY="88dp" />
 
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="White Coffe"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="256dp"/>
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Black Coffe"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c3"
+        android:layout_width="169dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c4"
+        android:layout_width="169dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Caramel Machiato"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Mocha Frappucino"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="495dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
