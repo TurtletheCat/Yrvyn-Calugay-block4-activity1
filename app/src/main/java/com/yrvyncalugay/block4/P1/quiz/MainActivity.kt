@@ -23,5 +23,27 @@ class MainActivity : AppCompatActivity() {
         mybt = findViewById(R.id.bt_login)
         btsu = findViewById(R.id.bt_su)
 
+        mybt.setOnClickListener {
+            val username = etEm.text.toString()
+            val password = etPw.text.toString()
+
+            if (username == "pastel") {
+                if (password == "123") {
+                    Toast.makeText(this@MainActivity,"Login Successful", Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this@MainActivity, MainActivity2::class.java)
+                    startActivity(intent)
+                }
+            }
+            else {
+                Toast.makeText(this@MainActivity, "Login Failed", Toast.LENGTH_SHORT).show()
+            }
+
+            btsu.setOnClickListener {
+                Toast.makeText(this@MainActivity,"Create Account", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, MainActivity3::class.java)
+                startActivity(intent)
+            }
+        }
+
     }
 }
